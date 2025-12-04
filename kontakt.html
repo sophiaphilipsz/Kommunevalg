@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kontakt</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <meta name="robots" content="noindex" />
+  </head>
+  <body class="kontakt-page">
+    <header>
+      <a href="index.html" class="logo-link">
+        <img src="el.png" alt="partilogo" class="logo" />
+        <h1>Stefan Rundstrøm</h1>
+      </a>
+
+      <!-- Burger-ikon -->
+      <a href="javascript:void(0);" class="burger-icon" onclick="toggleMenu()"
+        >&#9776;</a
+      >
+
+      <!-- Navigation -->
+      <nav id="main-nav">
+        <a href="maerkesager.html">Mærkesager</a>
+        <a href="derforstillerjegop.html">Derfor stiller jeg op</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </header>
+    <main>
+      <div class="kontaktmig">
+        <h2>Kontakt</h2>
+        <p>
+          Har du spørgsmål, idéer eller vil du bare sige hej? Så er du meget
+          velkommen til at skrive til mig eller ringe til mig. Jeg tror på, at
+          politik skal formes sammen med borgerne.
+        </p>
+      </div>
+      <div class="kontaktinfo">
+        <h3>Kontaktinformation</h3>
+        <p>Du kan kontakte mig på følgende måder:</p>
+        <ul>
+          <li>
+            Email:
+            <a href="mailto:stefanrunstroem@enhedslisten.dk">
+              stefanrunstroem@enhedslisten.dk
+            </a>
+          </li>
+        </ul>
+        <div class="social-links">
+          <a href="https://www.instagram.com/stefanrundstroem/"
+            ><img src="instagram.png" alt="instagram profil"
+          /></a>
+          <a href="https://www.facebook.com/StefanEnhedslisten/"
+            ><img src="facebook.png" alt="facebook profil"
+          /></a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h5>Kontakt mig</h5>
+      <div class="social">
+        <a href="https://www.instagram.com/stefanrundstroem/"
+          ><img src="instagram.png" alt="instagram profil"
+        /></a>
+        <a href="https://www.facebook.com/StefanEnhedslisten/"
+          ><img src="facebook.png" alt="facebook profil"
+        /></a>
+      </div>
+      <div class="mailfooter">
+        <a href="mailto:stefanrunstroem@enhedslisten.dk"
+          >stefanrunstroem@enhedslisten.dk</a
+        >
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; all rights reserved</p>
+      </div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        document.getElementById("main-nav").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
